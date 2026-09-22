@@ -1,10 +1,15 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url('fonts/Merriweather-Light.ttf');
+}
+
+
 body{
     text-align: center;
     color:#565253;
-    @font-face {
-        font-family: "Merriweather";
-        src: url('fonts/Merriweather-Light.ttf');
-    }
+}
+
+
 
 a{
     text-decoration: none;
@@ -35,13 +40,14 @@ h1{
     margin-right: 15px;
     text-align: center;
 }
-.pages{
-    margin-left: 10%;
+.pages {
+    /* margin-left: auto; */
+
 }
 li{
     display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     height:60px;
 }
 .welcome{
@@ -110,7 +116,7 @@ li{
     width: 250px;
     height: 270px;
 }
-.borrow-btn a{
+.borrow-btn {
     background-color: crimson;
     color: #fff;
     border: none;
