@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books_history</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-cont">
+        <h2>Check Book Borrowing History</h2>
+
+        <!-- Form to enter Admission Number -->
+        <form action="books_history.php" method="POST">
+            <img class="logo" src="images/book.png" alt=""><br>
+
+            <label>Enter Admission Number:</label>
+            <input type="number" name="adm_no" required>
+            <button class="submit" type="submit">Get History</button>
+        </form>
+    
+        
+            <h3>History for Admission No: </h3>
+            <table border="1">
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Issue Date</th>
+                    <th>Due Date</th>
+                    <th>Return Date</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+    
+    </body>
+    </div>
+ 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

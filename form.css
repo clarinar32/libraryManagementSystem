@@ -1,0 +1,68 @@
+body{
+   color: #565253;
+   font-size: 14px;
+   font-family:'monospace' ;
+}
+h2{
+   margin-left: 30px;
+   color: #007bb6;
+}
+.logo{
+   color: #007bb6;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   align-items: center;
+}
+div{
+   align-self: center; 
+   float: right;
+   width: 30%;
+   margin-right:40%;
+   background-color: #f6f6f6;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+
+input{
+   width: 90%;
+   background-color:#fff;
+   padding: 5px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   opacity: .8;
+
+}
+form{
+   margin-left: 30px;
+}
+input:focus{
+   border: #3c3d3d;
+   outline: 0;
+}
+.submit{
+   text-align: center;
+   margin-left: 3%;
+   width: 100px;
+   background-color: crimson;
+   color: #fff;
+   border-radius: 5%;
+   padding: 5px;
+   
+}
+.my-books{
+   text-align: center;
+   margin-left: 2%;
+   width: 250px;
+   background-color: crimson;
+   color: #fff;
+   border-radius: 5%;
+   padding: 5px;
+   
+}
+textarea{
+   border: #3c3d3d;
+   outline: 0;
+}
+

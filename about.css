@@ -1,0 +1,41 @@
+
+.main1{
+    background-image: url('img/background-books.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.main{
+   
+
+}   
+.main-content{
+   margin-left: 400px;
+   margin-right: 400px;
+   padding: 40px;
+   text-align: left;
+   background-color: white;
+}
+h1{
+   color:#007bb6;
+}
+.main-content h2 {
+    color: #007bb6;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-bottom{
+    margin-left: 400px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 180px 180px 180px ;
+    grid-template-rows:350px ;
+    grid-column-gap: 5px;
+}
+.footer-img img{
+    width: 180px;
+    height: 270px;
+}

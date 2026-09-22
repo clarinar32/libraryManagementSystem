@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return a Book</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-cont">
+        <h2>Return a Book</h2>
+
+        <form action="returningform.php" method="POST">
+            <img class="logo" src="images/book.png" alt=""><br>
+
+            <label>Admission Number:</label>
+            <input type="number" name="adm_no" required><br><br>
+    
+            <label>Book ID:</label>
+            <input type="number" name="book_id" required><br><br>
+    
+            <label>Return Date:</label>
+            <input type="date" name="return_date" required><br><br>
+    
+            <input class="submit" type="submit" value="Return Book">
+        </form>
+    </div>
+   
+</body>
+</html>

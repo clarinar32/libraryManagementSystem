@@ -1,0 +1,115 @@
+
+.borrow{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 300px 600px 350px;
+    grid-template-rows: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h3{
+    height: 0;
+}
+.left-panel img{
+    width: 250px;
+    height: 270px;
+}
+.left-panel{
+    margin-left: 50px;
+    background-color: #f6f6f6;
+}
+.mid-panel{
+    background-color: #f6f6f6;
+    margin-left: 30px;
+
+}
+h2{margin-bottom: 0;}
+
+.share-book{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 30%;
+}
+.shr-txt{
+    margin-right: 10px;
+}
+p{
+    line-height: 0;
+}
+.share-book img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.status{
+    color: green;
+}
+.mid-panel-tbl{
+    background-color: #f6f6f6;
+    width: 95%;
+    border: 1px soild #565253;
+    text-align: left;
+}
+th,td{
+    background-color: white;
+    border: 1px solid #f6f6f6;
+}
+
+.details{
+    width: 30%;
+}
+.right-panel{
+3}
+.how-to{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f6f6f6;
+}
+.how{
+    display: flex;
+    padding: 10px;
+    height: 30px;
+    width: 90%;
+    border: 1px solid white;
+
+}
+.how img{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.borrow-btn{
+    padding: 10px;
+    height: 30px;
+    width: 90%;
+    border: 1px solid white;
+}
+button{
+    width: 50%;
+    font-size: 18px;
+    color: #565253;
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.ask-btn{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 50%;
+    font-size: 14px;
+    border: 1px solid crimson;
+}
+.ask-btn img{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
